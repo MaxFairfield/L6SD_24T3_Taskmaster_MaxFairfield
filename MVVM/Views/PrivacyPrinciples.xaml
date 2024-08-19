@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TaskPlanner.MVVM.Views.PrivacyPrinciples"
+             Title="Privacy Policy">
+
+    <Grid RowDefinitions="*, Auto">
+        <ScrollView Grid.Row="0">
+            <StackLayout Padding="20">
+                <Label Text="Privacy Policy" FontSize="Title" FontAttributes="Bold" />
+
+                <Label Text="Welcome to TaskPlanner!" FontSize="Medium" Margin="0, 10, 0, 10" />
+                <Label Text="Your privacy is important to us. This policy outlines how we handle your personal information within the TaskPlanner app." FontSize="Small" />
+
+                <Label Text="Information We Collect" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
+                <Label Text="We collect information to improve your experience, including your name, email, and task-related data." FontSize="Small" />
+
+                <Label Text="How We Use Your Information" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
+                <Label Text="Your data helps us enhance the app, manage tasks, and provide customer support. We do not share your information without your consent." FontSize="Small" />
+
+                <Label Text="Security Measures" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
+                <Label Text="We implement industry-standard security practices, including encryption, to protect your data." FontSize="Small" />
+
+                <Label Text="Your Rights" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
+                <Label Text="You can access, update, or delete your personal data at any time. Contact us if you have any concerns." FontSize="Small" />
+
+                <Label Text="Changes to This Policy" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
+                <Label Text="We may update this policy from time to time. You'll be notified of any significant changes through the app." FontSize="Small" />
+
+                <Label Text="Contact Us" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
+                <Label Text="If you have any questions, reach out at task.planner@gmail.com or call 0800 827 537." FontSize="Small" />
+
+                <Label Text="References" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
+                <Label Text="• NZ Privacy Act 2020" FontSize="Small" />
+                <Label Text="• Privacy Commissioner's Guidelines" FontSize="Small" />
+                <Label Text="• CERT NZ Security Guide" FontSize="Small" />
+            </StackLayout>
+        </ScrollView>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Grid.Row="1" Margin="20,10">
+            <Button Text="Accept" Clicked="OnAcceptClicked" Margin="10,0" />
+            <Button Text="Decline" Clicked="OnDeclineClicked" Margin="10,0" />
+        </StackLayout>
+    </Grid>
+</ContentPage>

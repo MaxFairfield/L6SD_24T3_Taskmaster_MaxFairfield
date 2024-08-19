@@ -1,0 +1,60 @@
+is_global = true
+build_property.PropertyChangedAnalyzerConfiguration = 
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TaskPlanner
+build_property.ProjectDir = C:\Users\maxfa\source\repos\TaskPlannerCopy\TaskPlanner\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/maxfa/source/repos/TaskPlannerCopy/TaskPlanner/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskPlanner.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/maxfa/source/repos/TaskPlannerCopy/TaskPlanner/MVVM/Views/MainView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskPlanner.MVVM.Views.MainView.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\Views\MainView.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\Views\MainView.xaml
+
+[C:/Users/maxfa/source/repos/TaskPlannerCopy/TaskPlanner/MVVM/Views/NewTaskView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskPlanner.MVVM.Views.NewTaskView.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\Views\NewTaskView.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\Views\NewTaskView.xaml
+
+[C:/Users/maxfa/source/repos/TaskPlannerCopy/TaskPlanner/MVVM/Views/PrivacyPrinciples.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskPlanner.MVVM.Views.PrivacyPrinciples.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\Views\PrivacyPrinciples.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\Views\PrivacyPrinciples.xaml
+
+[C:/Users/maxfa/source/repos/TaskPlannerCopy/TaskPlanner/Resources/Styles/AppStyles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskPlanner.Resources.Styles.AppStyles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\AppStyles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\AppStyles.xaml
+
+[C:/Users/maxfa/source/repos/TaskPlannerCopy/TaskPlanner/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskPlanner.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/maxfa/source/repos/TaskPlannerCopy/TaskPlanner/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskPlanner.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
