@@ -9,31 +9,45 @@
             <StackLayout Padding="20">
                 <Label Text="Privacy Policy" FontSize="Title" FontAttributes="Bold" />
 
-                <Label Text="Welcome to TaskPlanner!" FontSize="Medium" Margin="0, 10, 0, 10" />
-                <Label Text="Your privacy is important to us. This policy outlines how we handle your personal information within the TaskPlanner app." FontSize="Small" />
+                <!-- Introduction Section -->
+                <Label Text="Introduction" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
+                <Label Text="Welcome to TaskPlanner! This privacy policy outlines how we handle your personal and task-related information to ensure your privacy and security within the app." FontSize="Small" />
 
+                <!-- Information We Collect Section -->
                 <Label Text="Information We Collect" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
-                <Label Text="We collect information to improve your experience, including your name, email, and task-related data." FontSize="Small" />
+                <Label Text="We collect task-related data you input into the app." FontSize="Small" />
 
-                <Label Text="How We Use Your Information" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
-                <Label Text="Your data helps us enhance the app, manage tasks, and provide customer support. We do not share your information without your consent." FontSize="Small" />
+                <!-- Personal Data Section -->
+                <Label Text="Personal Data" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
+                <Label Text="Your personal data helps us enhance the app, manage your experience, and provide customer support. We do not share your personal information without your consent." FontSize="Small" />
 
-                <Label Text="Security Measures" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
-                <Label Text="We implement industry-standard security practices, including encryption, to protect your data." FontSize="Small" />
+                <!-- Task Data Section -->
+                <Label Text="Task Data" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
+                <Label Text="We collect data related to the tasks you create within the app to help you manage and organize your activities effectively." FontSize="Small" />
 
-                <Label Text="Your Rights" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
-                <Label Text="You can access, update, or delete your personal data at any time. Contact us if you have any concerns." FontSize="Small" />
+                <!-- How We Use Information Section -->
+                <Label Text="How We Use Information" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
+                <Label Text="The information we collect is used to improve the functionality of the app, offer personalized experiences, and ensure smooth operation. We may also use it for analytics and support." FontSize="Small" />
 
-                <Label Text="Changes to This Policy" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
-                <Label Text="We may update this policy from time to time. You'll be notified of any significant changes through the app." FontSize="Small" />
+                <!-- Disclosure of Information Section -->
+                <Label Text="Disclosure of Information" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
+                <Label Text="We do not disclose your information to third parties unless required by law or with your explicit consent." FontSize="Small" />
 
+                <!-- Security of Information Section -->
+                <Label Text="Security of Information" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
+                <Label Text="We implement industry-standard security measures to protect your information from unauthorized access and breaches." FontSize="Small" />
+
+                <!-- Protection of Data Rights Section -->
+                <Label Text="Protection of Data Rights" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
+                <Label Text="You have the right to access, or delete your data at any time. Please contact us if you wish to exercise these rights or do so within the app." FontSize="Small" />
+
+                <!-- Changes to Privacy Policy Section -->
+                <Label Text="Changes to Privacy Policy" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
+                <Label Text="We may update this policy from time to time to reflect changes in the app or legal requirements. You will be notified of significant updates through the app." FontSize="Small" />
+
+                <!-- Contact Us Section -->
                 <Label Text="Contact Us" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
-                <Label Text="If you have any questions, reach out at task.planner@gmail.com or call 0800 827 537." FontSize="Small" />
-
-                <Label Text="References" FontSize="Medium" FontAttributes="Bold" Margin="0, 20, 0, 5" />
-                <Label Text="• NZ Privacy Act 2020" FontSize="Small" />
-                <Label Text="• Privacy Commissioner's Guidelines" FontSize="Small" />
-                <Label Text="• CERT NZ Security Guide" FontSize="Small" />
+                <Label Text="If you have any questions or concerns about our privacy policy, please reach out to us at task.planner@gmail.com or call 0800 123 456 789." FontSize="Small" />
             </StackLayout>
         </ScrollView>
 

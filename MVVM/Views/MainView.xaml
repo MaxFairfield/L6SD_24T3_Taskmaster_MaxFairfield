@@ -23,9 +23,10 @@
                         <Grid Padding="10">
                             <RoundRectangle/>
                             <VerticalStackLayout Padding="15" Spacing="10">
-                                <Label StyleClass="LightBlue" Text="{Binding PendingTasks, StringFormat='{0} Tasks'}"/>
+                                <Label StyleClass="LightBlue" Text="{Binding PendingTasks, StringFormat='{0} Tasks Remaining'}"/>
                                 <Label StyleClass="DarkBlue, CardTitle" Text="{Binding CategoryName}"/>
                                 <ProgressBar Progress="{Binding Percentage}" ProgressColor="{Binding Color, Converter={StaticResource ColorConverter}}"/>
+                                <Label StyleClass="LightBlue" Text="{Binding BothTasks, StringFormat='{0} Completed'}"/>
                             </VerticalStackLayout>
                         </Grid>
                     </DataTemplate>

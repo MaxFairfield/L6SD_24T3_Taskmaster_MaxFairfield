@@ -41,7 +41,7 @@
         <Setter Property="CornerRadius" Value="10" />
         <Setter Property="Fill" Value="White" />
         <Setter Property="WidthRequest" Value="200" />
-        <Setter Property="HeightRequest" Value="150" />
+        <Setter Property="HeightRequest" Value="160" />
         <Setter Property="Shadow" Value="{StaticResource shadow}" />
     </Style>
 

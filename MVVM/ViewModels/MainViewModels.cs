@@ -55,6 +55,9 @@ namespace TaskPlanner.MVVM.ViewModels
                 var totalTasks = tasks.Count();
 
                 c.PendingTasks = totalTasks - completed;
+                c.TotalTasks = totalTasks;
+                c.CompletedTasks = completed;
+                c.BothTasks = $"{completed}/{totalTasks}";
                 c.Percentage = totalTasks == 0 ? 0 : (float)completed / totalTasks;
             }
 

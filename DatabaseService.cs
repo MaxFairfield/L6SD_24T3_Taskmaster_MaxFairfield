@@ -14,7 +14,7 @@ namespace TaskPlanner.Services
         {
             string databasePath = Path.Combine(FileSystem.AppDataDirectory, "TaskPlanner.db");
             _database = new SQLiteAsyncConnection(databasePath);
-            InitializeTablesAsync().ConfigureAwait(false);
+            InitializeTablesAsync().ConfigureAwait(false); //returns an object used to await this task (blocking func)
         }
 
         private async Task InitializeTablesAsync()
