@@ -45,5 +45,26 @@ namespace TaskPlanner.MVVM.Views
                 }
             }
         }
+
+        private async void EditTaskClicked(object sender, EventArgs e)
+        {
+            var button = sender as Button;
+
+            if (button != null)
+            {
+                var task = button.CommandParameter as MyTask;
+
+                if (task != null)
+                {
+                    string newName = await DisplayPromptAsync("Editing task", "Enter new task name:", initialValue: task.TaskName);
+                    if (!string.IsNullOrEmpty(newName))
+                    {
+                        task.TaskName = newName;
+                        await mainViewModels.DatabaseService.UpdateTaskAsync(task);
+                        mainViewModels.UpdateData();
+                    }
+                }
+            }
+        }
     }
 }

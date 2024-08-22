@@ -40,7 +40,7 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Frame BackgroundColor="Transparent">
-                            <Grid ColumnDefinitions="Auto, *, Auto">
+                            <Grid ColumnDefinitions="Auto, *, Auto, Auto">
                                 <CheckBox
                                     x:Name="checkBox"
                                     IsChecked="{Binding Completed}"
@@ -64,6 +64,12 @@
                                 </Label>
 
                                 <Button Grid.Column="2" 
+                                    Text="Edit" 
+                                    HorizontalOptions="End" 
+                                    Clicked="EditTaskClicked"
+                                    CommandParameter="{Binding .}" />
+
+                                <Button Grid.Column="3" 
                                     Text="-" 
                                     HorizontalOptions="End" 
                                     Clicked="DeleteTaskClicked"
